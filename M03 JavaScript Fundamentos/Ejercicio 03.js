@@ -60,11 +60,11 @@ function esImpar(num) {
    // Retorna True si "num" es impar.
    // De lo contrario, retorna False.
    // Tu código:
-   if (num => esImpar){
+   if (num%3 === 1) {
       return true;
-      }else{
-         return false;
-      }
+    }else{
+      return false;
+    }
    }
 
 
